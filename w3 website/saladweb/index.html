@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!-- css link -->
+    <link rel="stylesheet" href="index.css">
+    <!-- bx slider -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" />
+    <!-- font-asm cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+
+<body>
+    <section class="header">
+        <div class="salad-container">
+            <header class="header-top">
+                <div class="header-right">
+                    <span>Sa</span><span class="fa-solid fa-spoon"></span><span>ads</span>
+                </div>
+                <div class="header-left">
+                    <ul class="navbar">
+                        <li><a href="" class="o-color"> Home</a></li>
+                        <li><a href=""> About</a></li>
+                        <li><a href=""> Menu</a></li>
+                        <li><a href=""> Pages</a></li>
+                        <li><a href=""> Contact</a></li>
+                        <li><a href=""> <i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    </ul>
+
+                </div>
+                <div class="display-theme">
+                    <span class="fa-solid fa-moon"></span>
+                </div>
+
+            </header>
+
+
+        </div>
+
+    </section>
+
+    <script>
+        let icon = document.querySelector(".fa-moon");
+        let bgcolor = document.querySelector("body");
+
+        icon.addEventListener("click", function () {
+            bgcolor.classList.toggle("dark-theme");
+
+            if (bgcolor.classList.contains("dark-theme") == true) {
+                icon.classList.remove("fa-moon");
+                icon.innerHTML = "<span class='fa-solid fa-sun'></span>";
+            }
+            else {
+                icon.classList.remove("fa-sun");
+                icon.innerHTML = "<span class='fa-solid fa-moon'></span>";
+
+            }
+
+        });
+
+    </script>
+    <section class="healthy-section">
+        <div class="healthy-container">
+            <div class="healthy-main">
+                <div class="contain">
+                    <h1>Fresh Healthy</h1>
+                    <p class="para1">Delicious Salads</p>
+                    <p class="para2">Healthy foods to eat everyday, Tasty and healthy vegetables salad <br> with fresh
+                        tomatoes,
+                        coriander leaves and more.
+
+                    </p>
+                    <div class="button">
+                        <button>order now</button>
+                    </div>
+                </div>
+                <div class="dish-img">
+
+
+                    <img src="../image/banner1.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <section class="ex-section">
+        <div class="ex-container">
+            <div class="ex-main-sec">
+                <div class="left-img-sec">
+                    <div class="image-ex">
+                        <div class="leftimg">
+                            <img src="../image/ab1.jpg" alt="">
+                        </div>
+                        <div class="rightimg">
+                            <img src="../image/ab2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="right-contain-sec">
+                    <p class="para3">
+                        Since 2006
+                    </p>
+                    <h1>We Have <span> 30+</span> Years of Experience</h1>
+                    <p class="para4">
+                        "Orem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at
+                        tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat".
+                    </p>
+                    <p class="para5">
+                        Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae,
+                        fugiat. Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
+                    </p>
+                    <div class="sign-img">
+                        <img src="../image/sign.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="card-section">
+        ````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+        <div class="card-container">
+            <div class="card-main">
+                <div class="card1">
+                    <div class="card-r "></div>
+                    <div class="card-r1"></div>
+                    <div class="card-img">
+                        <img src="../image/s1.jpg" alt="">
+
+                    </div>
+                    <div class="card-content">
+                        <h1>Green salad</h1>
+                        <p class="paragraph">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non.
+                            Duis sed et dolor
+                            amet.</p>
+                        <div class="square-sec"></div>
+
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card-r card-rq"></div>
+                    <div class="card-r1"></div>
+                    <div class="card-img">
+                        <img src="../image/s1.jpg" alt="">
+
+                    </div>
+                    <div class="card-content">
+                        <h1>Green salad</h1>
+                        <p class="paragraph">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non.
+                            Duis sed et dolor
+                            amet.</p>
+                        <div class="square-sec sq-color"></div>
+
+                    </div>
+                </div>
+                <div class="card1">
+                    <div class="card-r "></div>
+                    <div class="card-r1"></div>
+                    <div class="card-img">
+                        <img src="../image/s1.jpg" alt="">
+
+                    </div>
+                    <div class="card-content">
+                        <h1>Green salad</h1>
+                        <p class="paragraph">Amus a ligula quam tesque et libero ut justo, ultrices in. Ut eu leo non.
+                            Duis sed et dolor
+                            amet.</p>
+                        <div class="square-sec"></div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- <div class="review-sec">
+        <div class="review-container">
+            <div class="bxslider">
+                <div>
+                    <img src="../image/pexels-efe-ersoy-15686039.jpg" title="Coffee 1" />
+                </div>
+                <div>
+                    <img src="../image/pexels-furkanfdemir-10821197.jpg" title="Coffee 2" />
+                </div>
+                <div>
+                    <img src="../image/pexels-maria-loznevaya-14026343.jpg" title="Coffee 3" />
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <section class=" vegitable-landing-page ">
+        <div class="bxslider">
+            <div class="vegies-image1">
+                <div class="vegies-landing-contanet">
+                    <h1>we serve Fresh Vegetables & Organic foods</h1>
+                    <p> We deliver organic vegitabels & fruits</p>
+                    <div class="button">
+                        <button class="button-btn">View details</button>
+                    </div>
+                </div>
+            </div>
+            <div class="vegies-image2">
+                <div class="vegies-landing-contanet">
+                    <h1>we serve Fresh Vegetables & Organic foods</h1>
+                    <p> We deliver organic vegitabels & fruits</p>
+                    <div class="button">
+                        <button class="button-btn">View details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: true,
+                slideWidth: 1400,
+                loop: true,
+                autoplay: { delay: 2000 }
+            });
+        });
+    </script>
+
+    <section class="salad-grid-sec">
+        <div class="grid-container">
+            <div class="main-content">
+                <div class="grid-main">
+                    <div class="food-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-apple-whole"></i>
+                        </div>
+                        <div class="icon-content">
+                            <h1>healthy Food</h1>
+                            <p> ras effic metstuga via suscript consectepter adispiring unde amonis </p>
+                        </div>
+                    </div>
+                    <div class="food-content">
+                        <div class="icon">
+                            <!-- <i class="fa-solid fa-apple-whole"></i> -->
+                            <i class="fa-solid fa-bowl-food"></i>
+                        </div>
+                        <div class="icon-content">
+                            <h1>healthy Food</h1>
+                            <p> ras effic metstuga via suscript consectepter adispiring unde amonis </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-main">
+                    <div class="food-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-apple-whole"></i>
+                        </div>
+                        <div class="icon-content">
+                            <h1>healthy Food</h1>
+                            <p> ras effic metstuga via suscript consectepter adispiring unde amonis </p>
+                        </div>
+                    </div>
+                    <div class="food-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-heart-crack"></i>
+
+                        </div>
+                        <div class="icon-content">
+                            <h1>healthy Food</h1>
+                            <p> ras effic metstuga via suscript consectepter adispiring unde amonis </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-main">
+                    <div class="food-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-carrot"></i>
+
+
+                        </div>
+                        <div class="icon-content">
+                            <h1>healthy Food</h1>
+                            <p> ras effic metstuga via suscript consectepter adispiring unde amonis </p>
+                        </div>
+                    </div>
+                    <div class="food-content">
+                        <div class="icon">
+                            <i class="fa-solid fa-apple-whole"></i>
+
+
+                        </div>
+                        <div class="icon-content">
+                            <h1>healthy Food</h1>
+                            <p> ras effic metstuga via suscript consectepter adispiring unde amonis </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="searach-btn-sec">
+        <div class="search-container">
+            <div class="search-main">
+                <h1> Subscribe to get email updates <br> of our latest news </h1>
+                <div class="input-btn">
+                    <input type="text " placeholder=" Enter Yout Email">
+                    <div class="subscribe">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="review-sec">
+        <div class="review-container">
+            <div class="review-main">
+                <div class="review-one"></div>
+                <div class="review-two"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="about">
+                    <h2>About</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab.</p>
+                    <div class="social">
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+
+                </div>
+                <div class="contact">
+                    <h2>contact Info</h2>
+                    <div class="span-t">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Food, 10001, 5th Avenue, #06 lane street, NY - 62617.
+                    </div>
+                    <div class="span-t">
+                        <span class="fa-solid fa-greater-than"></span>
+                        +1(21)23 4567
+                    </div>
+
+                    <div class="span-t">
+                        <span class="fa-solid fa-greater-than"></span>
+                        sonamrajput0555@gmail.com
+                    </div>
+
+
+
+                </div>
+                <div class="quick">
+                    <h2>Quick Links</h2>
+                    <div class="quick-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Home
+
+                    </div>
+                    <div class="quick-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        About
+
+                    </div>
+                    <div class="quick-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Blog Post
+
+                    </div>
+                    <div class="quick-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Contact
+
+                    </div>
+
+
+                </div>
+                <div class="help">
+                    <h2>Help & Support</h2>
+                    <div class="help-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Live Chat
+                    </div>
+                    <div class="help-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Faq's
+                    </div>
+                    <div class="help-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Support
+                    </div>
+                    <div class="help-span">
+                        <span class="fa-solid fa-greater-than"></span>
+                        Term Of Use
+                    </div>
+                </div>
+
+            </div>
+            <p>© 2021 Salads. All rights reserved. Design by <span>SonamRajput</span> </p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background-color: rgb(21, 96, 65);
+}
+
+.salad-container {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.header-top {
+    display: flex;
+    padding: 20px;
+}
+
+.header-left {
+    flex: 1;
+    padding-top: 20px;
+
+}
+
+.header-right .fa-spoon {
+    color: rgb(247, 120, 60);
+
+
+}
+
+.header-right span {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.header-right {
+    flex: 3;
+    padding-top: 20px;
+
+}
+
+.header-left .navbar {
+    display: flex;
+    gap: 60px;
+
+}
+
+.header-left li {
+    list-style: none;
+}
+
+.header-left a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+}
+
+.header-left .o-color {
+    color: rgb(247, 120, 60);
+
+
+}
+
+.display-theme {
+    padding-top: 20px;
+    padding-left: 33px;
+    color: white;
+}
+
+.dark-theme {
+    background-color: rgb(41, 255, 186);
+    color: yellow;
+}
+
+/* ============ */
+
+.healthy-section {
+    width: 100%;
+    background-color: rgb(21, 96, 65);
+
+
+}
+
+.healthy-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.healthy-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+
+
+}
+
+.healthy-main .contain {
+    padding-top: 50px;
+}
+
+.healthy-main .contain h1 {
+    padding-bottom: 15px;
+    font-size: 65px;
+    color: white;
+
+}
+
+.healthy-main .contain .para1 {
+    font-size: 66px;
+    padding-bottom: 15px;
+    color: white;
+    font-weight: lighter;
+}
+
+.healthy-main .contain .para2 {
+    padding-bottom: 25px;
+    color: white;
+    line-height: 35px;
+    font-family: system-ui;
+
+    font-size: 20px;
+}
+
+.button button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(247, 120, 60);
+    color: white;
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+
+
+}
+
+.dish-img img {
+    margin: 0 auto;
+    animation: loader_ex 9s infinite linear;
+    border-radius: 50%;
+
+
+}
+
+@keyframes loader_ex {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+
+}
+
+/* =========== */
+.ex-section {
+    width: 100%;
+    padding: 50px;
+}
+
+.ex-container {
+    padding-top: 40px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.ex-main-sec {
+    display: flex;
+
+}
+
+.image-ex {
+    position: relative;
+
+}
+
+.left-img-sec {
+    display: flex;
+    width: 50%;
+}
+
+
+.rightimg {
+    position: absolute;
+    top: 50px;
+    left: 230px;
+}
+
+.rightimg img {
+    border-radius: 10px;
+}
+
+.leftimg img {
+    border-radius: 10px;
+}
+
+.right-contain-sec {
+    width: 50%;
+    padding: 20px;
+}
+
+.right-contain-sec .para3 {
+    font-size: 25px;
+
+
+}
+
+.right-contain-sec .para3 {
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.right-contain-sec h1 {
+    font-size: 45px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right-contain-sec h1 span {
+    color: orangered;
+}
+
+.right-contain-sec .para4 {
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: 'Cormorant Garamond', serif, 'cursive';
+
+
+}
+
+.right-contain-sec .para5 {
+    font-size: 22px;
+    font-weight: lighter;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+/* =================== */
+
+.card-section {
+    width: 100%;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    background-color: rgb(25, 33, 30);
+
+}
+
+.card-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-main {
+    display: flex;
+    gap: 50px;
+}
+
+.card1 {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(25, 33, 30);
+    position: relative;
+    box-shadow: 0 10px 10px black;
+    overflow: hidden;
+}
+
+.card-r {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 165px;
+    height: 165px;
+    background-color: rgba(14, 195, 110, 0.44);
+    border-radius: 0 50%;
+    z-index: 1;
+    transition: all 0.2s ease-out 0s;
+    transition: 0.7s all ease;
+}
+
+.card-rq {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 165px;
+    height: 165px;
+    background-color: rgba(229, 88, 22, 0.975);
+    border-radius: 0 50%;
+    z-index: 1;
+    transition: all 0.2s ease-out 0s;
+    transition: 0.7s all ease;
+}
+
+.card1:hover .card-r {
+    background-color: rgb(246, 84, 25);
+}
+
+.card-r1 {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: rgb(25, 33, 30);
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.card-img img {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    padding: 13px;
+    border-radius: 50%;
+    content: "";
+    z-index: 1;
+}
+
+.card-content h1 {
+    position: relative;
+    top: 220px;
+    color: white;
+    left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+.card-content .paragraph {
+    color: white;
+    position: absolute;
+    top: 265px;
+    left: 28px;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.square-sec {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    /* bottom: 0; */
+    top: 350px;
+    background-color: rgba(14, 195, 110, 0.44);
+    right: -50px;
+    transform: rotate(-55deg);
+    transition: 0.7s all ease;
+
+}
+
+.card1:hover .square-sec {
+    background-color: rgb(246, 84, 25);
+
+}
+
+.card-content .sq-color {
+    background-color: rgb(246, 84, 25);
+
+}
+
+/* ================================ */
+.salad-grid-sec {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(25, 33, 30);
+
+}
+
+.grid-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    gap: 30px;
+}
+
+.grid-main {
+    display: grid;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+
+.food-content {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    gap: 20px;
+    transition: .5s;
+}
+
+.food-content:hover {
+    border: 1px solid white;
+
+}
+
+.food-content:hover h1 {
+    color: green;
+
+}
+
+
+.icon {
+    font-size: 35px;
+    color: rgb(246, 84, 25);
+    transition: .5s;
+}
+
+.food-content:hover .icon {
+    color: green;
+
+}
+
+.icon-content h1 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.icon-content p {
+    color: white;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ==================== */
+.searach-btn-sec {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(25, 33, 30);
+
+}
+
+.search-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.search-main {
+    text-align: center;
+    position: relative;
+
+}
+
+.search-main h1 {
+    color: white;
+    font-size: 50px;
+    padding-bottom: 50px;
+}
+
+.input-btn input {
+    width: 700px;
+    font-size: 18px;
+    border-radius: 30px;
+    padding: 10px;
+    height: 62px;
+    background-color: transparent;
+    border: 1px grey solid;
+}
+
+.subscribe button {
+    width: 150px;
+    font-size: 18px;
+    padding: 10px;
+    height: 60px;
+    background-color: rgb(246, 84, 25);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    top: 167px;
+    right: 257px;
+    transition: 1s;
+
+}
+
+.subscribe button:hover {
+    background-color: green;
+}
+
+/* ============== */
+footer {
+    width: 100%;
+    padding-top: 50px;
+    background-color: rgb(25, 33, 30);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.footer-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.footer-main .about h2 {
+    padding-bottom: 20px;
+}
+
+.footer-main .about p {
+    width: 320px;
+    font-size: 17px;
+    padding-bottom: 20px;
+
+}
+
+.contact h2 {
+    padding-bottom: 20px;
+}
+
+.contact .span-t {
+    padding-bottom: 10px;
+}
+
+
+.footer-main span {
+    font-size: 12px;
+}
+
+.quick h2 {
+    padding-bottom: 20px;
+}
+
+.quick .quick-span {
+    padding-bottom: 10px;
+}
+
+.help h2 {
+    padding-bottom: 20px;
+}
+
+.help .help-span {
+    padding-bottom: 10px;
+}
+
+.footer-container p {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.footer-container span {
+    font-weight: bold;
+
+}
+
+.about .social i {
+    padding: 5px;
+    background-color: rgba(7, 7, 7, 0.333);
+    border-radius: 50%;
+    gap: 10px;
+
+}
+
+/* ============= */
+.review-sec {
+    width: 100%;
+
+}
+
+.review-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ==========next section========================= */
+.bxslider .vegies-image1 {
+    background-image: url(../image/pexels-efe-ersoy-15686039.jpg);
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.bxslider .vegies-image2 {
+    background-image: url(../image/pexels-furkanfdemir-10821197.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.596);
+    background-blend-mode: overlay;
+}
+
+.vegies-landing-contanet {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.vegies-landing-contanet h1 {
+    font-size: 60px;
+    color: white;
+    font-family: system-ui;
+    font-weight: 350;
+}
+
+.vegies-landing-contanet p {
+    font-size: 30px;
+    color: white;
+    font-family: system-ui;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.button-btn {
+    width: 140px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(79, 136, 16);
+    color: white;
+    border: none;
+    font-size: 15px;
+    transition: 0.5s all ease;
+
+
+}
+
+.button-btn:hover {
+    background-color: transparent;
+    color: green;
+    border: 1px solid green;
+}

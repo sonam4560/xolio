@@ -1,0 +1,135 @@
+.right-nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-nav {
+    width: 100%;
+    /* background-color: black; */
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1; */
+}
+
+
+
+
+.right-nav ul li {
+    list-style: none;
+}
+
+.right-nav ul li {
+    padding-top: 10px;
+}
+
+.right-nav ul {
+    gap: 40px;
+}
+
+.right-nav ul .btn-c {
+    width: 130px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: rgb(248, 158, 82);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner-sec {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-shape-wrap {
+    position: absolute;
+    top: -28%;
+    left: -1%;
+    z-index: -1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner-content h1 {
+    width: 500px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.contact-btn button {
+    width: 230px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: rgb(52, 130, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.banner-content p {
+    border-radius: 30px;
+    background-color: rgb(243, 247, 250);
+    font-weight: bold;
+    width: 270px;
+    font-weight: 450;
+
+}
+
+
+
+.card1 {
+
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1.5rem 0.2rem;
+    box-shadow: 0 15px 30px rgba(165, 180, 198, 0.418);
+}
+
+.about-container {
+    background-color: rgb(243, 247, 250);
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.about-main {
+    padding: 20px;
+}
+
+.about-main .icon {
+    gap: 15px;
+}
+
+.about-main .icon img {
+    width: 60px;
+
+}
+
+.about-img img {
+    border-radius: 20px;
+}
+
+.icon-content .para::after {
+    content: "";
+    display: block;
+    width: 480px;
+    border: 1px rgb(219, 218, 218) solid;
+}
+
+.about-content-bottom .read-btn button {
+    width: 230px;
+    height: 80px;
+    border-radius: 25px;
+    background-color: rgb(52, 130, 255);
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
